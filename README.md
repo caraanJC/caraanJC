@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @creation00
 - 👀 I’m interested in coding!
-- 🌱 I’m currently learning html and css!
-- 💞️ I’m looking to collaborate on ...
+- 🌱 I’m currently learning html, css, javascript, and, react!
+- 💞️ I’m looking to collaborate on anything that is interesting.
 - 📫 How to reach me fb.com/creation00, caraanjohncarlo@gmail.com
 
 <!---
