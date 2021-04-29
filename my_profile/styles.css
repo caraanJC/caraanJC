@@ -263,9 +263,6 @@
     justify-content: center;
   }
 
-  #main * {
-    transform: scale(0.85);
-  }
   #main img {
     transform: scale(0.75);
     margin-bottom: -10px;
