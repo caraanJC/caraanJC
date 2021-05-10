@@ -13,15 +13,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link
-      rel="icon"
-      href="profile.ico"
-    />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="profile.ico" />
+    <link rel="stylesheet" href="styles.css" />
     <title>About Me</title>
-
-    
-    </style>
   </head>
   <body>
     <nav id="nav">
@@ -38,10 +32,7 @@
 
     <main id="main">
       <div class="container">
-        <img
-          src="https://scontent.fmnl10-1.fna.fbcdn.net/v/t1.6435-9/39006497_2220633051298586_3640527813255102464_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=E58yGXV-LDQAX-3M522&_nc_ht=scontent.fmnl10-1.fna&oh=c57ff829139825f6ea25ed7387b43f07&oe=60ABDEB1"
-          alt="my profile picture"
-        />
+        <img src="./assets/discord-pic.png" alt="my profile picture" />
         <h1>John Carlo B. Caraan</h1>
         <p>Software Engineer</p>
       </div>
@@ -51,39 +42,41 @@
         <h2>Dream</h2>
         <h3>My dream is to build the nerve gear.</h3>
         <p>
-          I've always wanted to create the nerve gear for myself. Just Imagining
-          how it feels like to be badass will make the trouble of creating it
-          worth it.
+          Having watched Sword Art Online, I was amazed at the possibility of
+          creating a realistic RPG world.
         </p>
       </div>
     </section>
     <section id="hobbies">
-      <div class="container">
-        <h2>Hobbies</h2>
-        <div class="hobbies-container">
-          <div class="league">
-            <h3>Playing League of Legends</h3>
-            <p>I play league and I main Garen</p>
-          </div>
-          <div class="coding">
-            <h3>Coding</h3>
-            <p>Editing the world with a text editor!</p>
-          </div>
-          <div class="uncle-roger">
-            <h3>Watching Uncle Roger</h3>
-            <p>Good show. Fuiyooohhhh!!</p>
-          </div>
+      <h2>Hobbies</h2>
+      <div class="hobbies-container">
+        <div
+          class="hobby active"
+          style="background-image: url('./assets/league.jpg')"
+        >
+          <h3>Playing League of Legends</h3>
+        </div>
+
+        <div class="hobby" style="background-image: url('./assets/code.jpg')">
+          <h3>Programming</h3>
+        </div>
+        <div class="hobby" style="background-image: url('./assets/manhwa.png')">
+          <h3>Reading Manhwas</h3>
         </div>
       </div>
+      <button class="arrow left-arrow" id="left">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <button class="arrow right-arrow" id="right">
+        <i class="fas fa-arrow-right"></i>
+      </button>
     </section>
     <footer id="contact">
       <div class="container">
-        <div class="first-col">
+        <div class="contact-container">
           <p><i class="fas fa-phone-alt"></i>+639770628347</p>
           <p><i class="far fa-envelope"></i>caraanjohncarlo@gmail.com</p>
-          <p><i class="fas fa-map-marker-alt"></i>Paete, Laguna</p>
-        </div>
-        <div class="second-col">
+          <p><i class="fas fa-map-marker-alt"></i>Paete,Laguna</p>
           <p>
             <i class="fab fa-linkedin"></i
             ><a
@@ -94,14 +87,15 @@
           </p>
           <p>
             <i class="fab fa-github"></i
-            ><a href="https://github.com/caraanJC" target="_blank">Github</a>
+            ><a href="https://github.com/creation00" target="_blank">Github</a>
           </p>
         </div>
+
         <div class="backToTop">
-          <a href="#main"><i class="fas fa-arrow-alt-circle-up"></i>
-          <p>Back To Top</p></a>
+          <a href="#main"><i class="fas fa-chevron-up"></i></a>
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
