@@ -2,9 +2,6 @@ const body = document.getElementById('hobbies')
 const slides = document.querySelectorAll('.hobby')
 const leftBtn = document.getElementById('left')
 const rightBtn = document.getElementById('right')
-const bars = document.getElementById('bars')
-const list = document.querySelector('.list ul')
-const closeBtn = document.getElementById('closeBtn')
 
 let activeSlide = 0
 
