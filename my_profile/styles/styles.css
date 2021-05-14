@@ -351,6 +351,15 @@
           flex-direction: column;
 }
 
+#contact .contact-container p:hover,
+#contact .contact-container a:hover {
+  color: #1d3549;
+}
+
+#contact .contact-container i {
+  margin-right: 7px;
+}
+
 #contact .backToTop {
   display: -webkit-box;
   display: -ms-flexbox;

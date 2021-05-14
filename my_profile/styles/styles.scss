@@ -250,6 +250,13 @@
   .contact-container {
     display: flex;
     flex-direction: column;
+    p:hover,
+    a:hover {
+      color: hsl(207, 44%, 20%);
+    }
+    i {
+      margin-right: 7px;
+    }
   }
   .backToTop {
     display: flex;
